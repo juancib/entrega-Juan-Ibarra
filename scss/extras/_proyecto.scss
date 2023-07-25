@@ -1,0 +1,51 @@
+//Importando archivos scss
+
+@import "extras/variables";
+@import "extras/mixin";
+@import "extras/extend";
+
+/*proyecto*/
+.proyecto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    .contenedor{
+        padding: 1rem;
+        @include mq(678px){display: grid;
+            grid-template-columns: repeat(2, 1fr)}
+        @include mq(1024px){display: grid;
+            grid-template-columns: repeat(2, 1fr)
+        }
+    }
+    .imagen{
+        display: grid;
+        place-items: center;
+    }
+    img{
+        margin: 3rem 0 0.2rem 0;
+        width: 40%;
+        @include mq(678px){width:80%}
+        @include mq(1024px){width:60%}
+    }
+    .encabezado-2{
+        margin: 0.6rem;
+        font-weight: 600;
+        font-size: 2rem;
+        color: $black;
+    }
+    .encabezado-3{
+        margin: 0.6rem;
+        font-weight: 400;
+        font-size: 1.5rem;
+        color: $aerie-black;
+    }
+    .texto {
+        font-size: 1rem;
+        color: $gunmetal;
+    }
+    .tarjeta{
+        @extend .tarjeta-general;
+    }
+  }

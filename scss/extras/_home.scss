@@ -1,0 +1,45 @@
+//Importando archivos scss
+
+@import "extras/variables";
+@import "extras/mixin";
+@import "extras/extend";
+
+/*Estilos index*/
+.inicio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: url(../img/inicio-bg.jpg) top center;
+  padding: 2rem;
+  img{
+    margin: 1rem 0;
+    width: 50%;
+    @include mq(678px){width:30%}
+    @include mq(1024px){width:20%}
+  }
+  .encabezado-1{
+    margin: 0.6rem;
+    font-weight: 800;
+    font-size: 3rem;
+    color: $white;
+  }
+  .encabezado-2{
+    margin: 0.6rem;
+    font-weight: 500;
+    font-size: 2rem;
+    color: $white;
+  }
+  .texto {
+    font-size: 1rem;
+    color: $white;
+  }
+  .boton{
+    @extend .boton-general;
+  }
+  .boton:hover{
+    background-color: $piction-blue;
+    color: $silver;
+  }
+}
+

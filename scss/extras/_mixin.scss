@@ -1,0 +1,12 @@
+//Importando archivos scss
+
+@import "extras/variables";
+
+//Mixin de medidas mq
+@mixin mq($medida){
+    @media screen and (min-width: $medida){
+        @content;
+    }
+}
+
+//@include mq(480px){width:50%}
