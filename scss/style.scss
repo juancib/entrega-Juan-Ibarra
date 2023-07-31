@@ -1,0 +1,59 @@
+//Importando archivos scss
+
+@import "extras/variables";
+@import "extras/mixin";
+@import "extras/extend";
+@import "extras/home";
+@import "extras/proyecto";
+@import "extras/equipo";
+@import "extras/servicios";
+@import "extras/contacto";
+
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body, html {
+    background-color: $white;
+    font-family: "Open Sans","Rubik", sans-serif; 
+}
+/* Header*/
+#header {
+    height: 60px;
+    background: $gunmetal;
+    align-items: center;
+    .logo img {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+/*navbar*/
+.nav-item a{
+  color: $white !important;
+}
+
+.navbar-collapse{
+  background-color: $gunmetal !important;
+  text-align: center;
+}
+
+/*Footer*/
+#footer .contenedor {
+    background: $gunmetal;
+    padding: 30px 0;
+    color: $white;
+    font-size: 14px;
+    .copyright {
+        text-align: center;
+      }
+    .credits {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: $white;
+    }
+  }

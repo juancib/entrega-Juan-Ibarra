@@ -1,0 +1,341 @@
+.boton-general, .inicio .boton, .equipo .boton, .contacto .boton {
+  background-color: #2D98C9;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 2rem 0; }
+
+.tarjeta-general, .proyecto .tarjeta, .servicios .tarjeta {
+  padding: 1rem;
+  background-color: #E6E6E6;
+  border-radius: 3px;
+  margin: 1rem; }
+
+.boton-general, .inicio .boton, .equipo .boton, .contacto .boton {
+  background-color: #2D98C9;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 2rem 0; }
+
+.tarjeta-general, .proyecto .tarjeta, .servicios .tarjeta {
+  padding: 1rem;
+  background-color: #E6E6E6;
+  border-radius: 3px;
+  margin: 1rem; }
+
+/*Estilos index*/
+.inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: url(../img/inicio-bg.jpg) top center;
+  padding: 2rem; }
+  .inicio img {
+    margin: 1rem 0;
+    width: 50%; }
+    @media screen and (min-width: 678px) {
+      .inicio img {
+        width: 30%; } }
+    @media screen and (min-width: 1024px) {
+      .inicio img {
+        width: 20%; } }
+  .inicio .encabezado-1 {
+    margin: 0.6rem;
+    font-weight: 800;
+    font-size: 3rem;
+    color: #fff; }
+  .inicio .encabezado-2 {
+    margin: 0.6rem;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #fff; }
+  .inicio .texto {
+    font-size: 1rem;
+    color: #fff; }
+  .inicio .boton:hover {
+    background-color: #34ABE2;
+    color: #CCCCCC; }
+
+.boton-general, .inicio .boton, .equipo .boton, .contacto .boton {
+  background-color: #2D98C9;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 2rem 0; }
+
+.tarjeta-general, .proyecto .tarjeta, .servicios .tarjeta {
+  padding: 1rem;
+  background-color: #E6E6E6;
+  border-radius: 3px;
+  margin: 1rem; }
+
+/*proyecto*/
+.proyecto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Rubik', sans-serif; }
+  .proyecto .contenedor {
+    padding: 1rem; }
+    @media screen and (min-width: 678px) {
+      .proyecto .contenedor {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); } }
+    @media screen and (min-width: 1024px) {
+      .proyecto .contenedor {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); } }
+  .proyecto .imagen {
+    display: grid;
+    place-items: center; }
+  .proyecto img {
+    margin: 3rem 0 0.2rem 0;
+    width: 40%; }
+    @media screen and (min-width: 678px) {
+      .proyecto img {
+        width: 80%; } }
+    @media screen and (min-width: 1024px) {
+      .proyecto img {
+        width: 60%; } }
+  .proyecto .encabezado-2 {
+    margin: 0.6rem;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #000000; }
+  .proyecto .encabezado-3 {
+    margin: 0.6rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #1A1E20; }
+  .proyecto .texto {
+    font-size: 1rem;
+    color: #343B40; }
+
+.boton-general, .inicio .boton, .equipo .boton, .contacto .boton {
+  background-color: #2D98C9;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 2rem 0; }
+
+.tarjeta-general, .proyecto .tarjeta, .servicios .tarjeta {
+  padding: 1rem;
+  background-color: #E6E6E6;
+  border-radius: 3px;
+  margin: 1rem; }
+
+/*equipo*/
+.equipo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+  .equipo .contenedor {
+    padding: 2rem; }
+    @media screen and (min-width: 678px) {
+      .equipo .contenedor {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); } }
+    @media screen and (min-width: 1024px) {
+      .equipo .contenedor {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); } }
+  .equipo img {
+    width: 40%; }
+    @media screen and (min-width: 678px) {
+      .equipo img {
+        width: 60%; } }
+    @media screen and (min-width: 1024px) {
+      .equipo img {
+        width: 60%; } }
+  .equipo .encabezado-2 {
+    margin: 0.6rem;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #000000; }
+  .equipo .encabezado-4 {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #000000; }
+  .equipo .encabezado-3 {
+    margin: 0.6rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #1A1E20; }
+  .equipo .redes i {
+    margin: 0 0.2rem 0 0.2rem;
+    font-size: 1.2rem; }
+  .equipo .boton:hover {
+    background-color: #34ABE2;
+    color: #CCCCCC; }
+
+.boton-general, .inicio .boton, .equipo .boton, .contacto .boton {
+  background-color: #2D98C9;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 2rem 0; }
+
+.tarjeta-general, .proyecto .tarjeta, .servicios .tarjeta {
+  padding: 1rem;
+  background-color: #E6E6E6;
+  border-radius: 3px;
+  margin: 1rem; }
+
+/*servicios*/
+.servicios {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .servicios .contenedor {
+    text-align: center; }
+  .servicios .grupo-tarjetas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: grid; }
+    @media screen and (min-width: 678px) {
+      .servicios .grupo-tarjetas {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr); } }
+    @media screen and (min-width: 1024px) {
+      .servicios .grupo-tarjetas {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr); } }
+  @media screen and (min-width: 678px) {
+    .servicios .tarjeta {
+      height: 80%; } }
+  @media screen and (min-width: 1024px) {
+    .servicios .tarjeta {
+      height: 80%; } }
+  .servicios .encabezado-2 {
+    margin: 0.6rem;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #000000; }
+  .servicios .encabezado-3 {
+    margin: 0.6rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #1A1E20; }
+  .servicios .texto {
+    font-size: 1rem;
+    color: #343B40; }
+  .servicios .icono i {
+    margin: 1rem;
+    font-size: 2.5rem;
+    color: #000000; }
+
+.boton-general, .inicio .boton, .equipo .boton, .contacto .boton {
+  background-color: #2D98C9;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 2rem 0; }
+
+.tarjeta-general, .proyecto .tarjeta, .servicios .tarjeta {
+  padding: 1rem;
+  background-color: #E6E6E6;
+  border-radius: 3px;
+  margin: 1rem; }
+
+/* Contacto */
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+  .contacto .contenedor {
+    padding: 2rem; }
+    @media screen and (min-width: 1024px) {
+      .contacto .contenedor {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); } }
+  @media screen and (min-width: 1024px) {
+    .contacto .caja {
+      padding: 2rem;
+      margin: 1rem; } }
+  .contacto .encabezado-2 {
+    margin: 0.6rem;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #000000; }
+  .contacto .encabezado-3 {
+    margin: 0.6rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #1A1E20; }
+  .contacto .texto {
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 400; }
+  .contacto .redes {
+    margin: 0 0.2rem 0 0.2rem;
+    font-size: 1.2rem; }
+  .contacto .boton:hover {
+    background-color: #34ABE2;
+    color: #CCCCCC; }
+
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body, html {
+  background-color: #fff;
+  font-family: "Open Sans","Rubik", sans-serif; }
+
+/* Header*/
+#header {
+  height: 60px;
+  background: #343B40;
+  align-items: center; }
+  #header .logo img {
+    text-align: center;
+    padding: 0;
+    margin: 0; }
+
+/*navbar*/
+.nav-item a {
+  color: #fff !important; }
+
+.navbar-collapse {
+  background-color: #343B40 !important;
+  text-align: center; }
+
+/*Footer*/
+#footer .contenedor {
+  background: #343B40;
+  padding: 30px 0;
+  color: #fff;
+  font-size: 14px; }
+  #footer .contenedor .copyright {
+    text-align: center; }
+  #footer .contenedor .credits {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff; }

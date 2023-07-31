@@ -1,0 +1,52 @@
+//Importando archivos scss
+
+@import "extras/variables";
+@import "extras/mixin";
+@import "extras/extend";
+
+/*servicios*/
+.servicios{
+padding: 1rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+.contenedor{
+    text-align: center;
+}
+.grupo-tarjetas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: grid;
+    @include mq(678px){grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);}
+    @include mq(1024px){grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);}
+}
+.tarjeta{
+    @extend .tarjeta-general;
+    @include mq(678px){height: 80%;}
+    @include mq(1024px){height: 80%;}
+}
+.encabezado-2{
+    margin: 0.6rem;
+    font-weight: 600;
+    font-size: 2rem;
+    color: $black;
+}
+.encabezado-3{
+    margin: 0.6rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: $aerie-black;
+}
+.texto {
+    font-size: 1rem;
+    color: $gunmetal;
+}
+.icono i{
+    margin: 1rem;
+    font-size: 2.5rem;
+    color: $black;
+}
+}
