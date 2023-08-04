@@ -10,6 +10,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: center;
     .contenedor{
         padding: 2rem;
         @include mq(1024px){display: grid;
@@ -24,7 +25,7 @@
     .encabezado-2{
         margin: 0.6rem;
         font-weight: 600;
-        font-size: 2rem;
+        font-size: 3rem;
         color: $black;
     }
     .encabezado-3{

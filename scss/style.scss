@@ -19,6 +19,12 @@ body, html {
     background-color: $white;
     font-family: "Open Sans","Rubik", sans-serif; 
 }
+main{
+  display: flex;
+  text-align: center;
+  @include mq(678px){min-height: 70vh;}
+  @include mq(1024px){min-height: 90vh;}
+}
 /* Header*/
 #header {
     height: 60px;
@@ -35,10 +41,13 @@ body, html {
 .nav-item a{
   color: $white !important;
 }
-
 .navbar-collapse{
   background-color: $gunmetal !important;
   text-align: center;
+}
+
+.navbar-toggler-icon{
+  border-color: $piction-blue !important;
 }
 
 /*Footer*/
@@ -55,5 +64,9 @@ body, html {
     text-align: center;
     font-size: 13px;
     color: $white;
+    }
+    a{
+      text-decoration: none;
+      color: $deep-sky-blue;
     }
   }
